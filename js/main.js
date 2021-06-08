@@ -18,7 +18,7 @@ window.onscroll = function() {
 
 $(document).ready(function() {
     $('.slider').slick({
-        arrows: false,
+        arrows: true,
         slidesToShow: 3,
         slidesToScroll: 2,
         adaptiveHeight: true,
@@ -32,7 +32,6 @@ $(document).ready(function() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    arrows: true,
                 }
             }
         ]
