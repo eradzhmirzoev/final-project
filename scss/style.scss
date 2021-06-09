@@ -699,6 +699,7 @@ form {
     .galery__title {
         padding-left: 40px;
         position: relative;
+        margin-bottom: 30px;
 
         .galery__link {
             font-size: 30px;
@@ -2018,6 +2019,34 @@ form {
 
 @media screen and (max-width:500px) {
 
+    /*section__messege*/
+
+    .section__messege {
+        margin-top: 40px;
+
+        form {
+            padding: 0;
+            .send__messege {
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+
+                input {
+                    width: 100%;
+                }
+            }
+    
+            
+            .send__btn {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+    
+
     /*section__collection__wrap*/
 
     .section__collection {
@@ -2036,4 +2065,11 @@ form {
         margin: auto;
     }
 
+    .section__help {
+        margin-top: 50px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
 }
