@@ -1876,12 +1876,12 @@ form {
     }
 
     .content__wrap {
-        width: 240px;
+        max-width: 240px;
         height: 336px;
     }
 
     .content__item {
-        width: 240px;
+        max-width: 240px;
         height: 336px;
     }
 
@@ -1899,7 +1899,6 @@ form {
 
     .section__galery {
         height: 550px;
-        
     }
 
     .galery__box {
@@ -2014,4 +2013,27 @@ form {
         }
     }
     
+}
+
+
+@media screen and (max-width:500px) {
+
+    /*section__collection__wrap*/
+
+    .section__collection {
+        justify-content: center;
+        align-content: space-between;
+        overflow: hidden;
+
+        .content__wrap:nth-child(5),
+        .content__wrap:nth-child(6) {
+            display: none;
+        }
+    }
+
+    .section__collection {
+        width: 100%;
+        margin: auto;
+    }
+
 }
